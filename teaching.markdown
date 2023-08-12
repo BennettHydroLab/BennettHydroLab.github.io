@@ -1,7 +1,7 @@
 ---
 layout: teaching
 title: Educational Resources
-permalink: /teaching
+permalink: /teaching/
 ---
 
 # Teaching

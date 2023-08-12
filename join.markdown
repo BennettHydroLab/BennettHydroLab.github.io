@@ -1,7 +1,7 @@
 ---
 layout: join
 title: Join us!
-permalink: /join
+permalink: /join/
 ---
 
 # Join our team!
