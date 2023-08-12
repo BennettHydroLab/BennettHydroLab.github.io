@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="padded col-lg-7 col-lg-offset-3">
+  {{content}}
+</div>
+
+<div class="container content">
+  <div class="row">
+
+    <div class="col-lg-8 col-lg-offset-2">
+      <h3>Courses taught</h3>
+      <div class="hline"></div>
+      {% for class in site.data.teaching.classes %}
+        {% include course_details.html %}
+        <p style="margin-bottom:3em;"></p>
+      {% endfor %}
+    </div>
+
+    <div class="col-lg-8 col-lg-offset-2">
+      <h3>Workshop materials</h3>
+      <div class="hline"></div>
+      {% for class in site.data.teaching.workshops %}
+        {% include workshop_materials.html %}
+        <p style="margin-bottom:3em;"></p>
+      {% endfor %}
+    </div>
+
+    <div class="col-lg-8 col-lg-offset-2">
+      <h3>Additional Resources</h3>
+      <div class="hline"></div>
+      {% for class in site.data.teaching.additional_resources %}
+        {% include additional_resources.html %}
+        <p style="margin-bottom:3em;"></p>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>

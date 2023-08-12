@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+
+    <title>~ ⟩ Bennett Computational Hydrology Lab - Educational Resources</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="/css/main.css">-->
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="/assets/js/modernizr.js"></script>
+</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+<script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+
+    <body>
+        <div class="everything">
+            <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top hline" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">~ ⟩ Bennett Computational Hydrology Lab</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li> <a href="/">HOME</a> </li>
+        <li> <a href="/publications/">PUBLICATIONS</a> </li>
+        <li> <a href="/teaching/">TEACHING</a> </li>
+        <li> <a href="/team/">TEAM</a> </li>
+        <li> <a href="/join/">JOIN</a> </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+            <div class="content mtb ">
+                <div class="padded col-lg-7 col-lg-offset-3">
+  <h1 id="teaching">Teaching</h1>
+
+
+</div>
+
+<div class="container content">
+  <div class="row">
+
+    <div class="col-lg-8 col-lg-offset-2">
+      <h3>Courses taught</h3>
+      <div class="hline"></div>
+      
+        <h4>HWRS 401/501 - Tools for Data Handling and Analysis in Water, Weather, & Climate</h4>
+<div class="row">
+    <div class="col-lg-7"> 
+        <p>Taught Fall 2022</p> 
+    </div>
+    <div class="col-lg-3 alignright"> 
+        <a href="https://arbennett.github.io/python_for_water_weather_climate/README.html" class="materials">View Class Materials</a> 
+    </div>
+</div>
+<p>A hands-on introduction to major software tools and methods used across research and industry for hydrology and atmospheric science. We will take a project-based approach, learning software packages and best practices while building our own analysis for a real world problem. Major topics covered will include: Python for scientific computing, GitHub workflows and collaborative open source development, the basics of parallel and cloud computing, major data repositories and how to interact with them, and the basics of visualization. No prior coding experience is required.</p>
+        <p style="margin-bottom:3em;"></p>
+      
+    </div>
+
+    <div class="col-lg-8 col-lg-offset-2">
+      <h3>Workshop materials</h3>
+      <div class="hline"></div>
+      
+        <h4>WaterHackWeek - MetSim</h4>
+<div class="row">
+    <div class="col-lg-7"> 
+        <p>Taught 2019</p> 
+    </div>
+    <div class="col-lg-3 alignright"> 
+        <a href="https://github.com/UW-Hydro/MetSim-tutorial" class="materials">View Materials</a> 
+    </div>
+</div>
+<p>A set of tutorial materials on how to use the MetSim python package. MetSim is a software package that enables generation and temporal disaggregation of meteorologic forcing data meant for hydrologic models. In the tutorial I cover the gaps that MetSim covers, a brief overview of the methods employed, and then walk through several use cases for how to actually run MetSim in both command line and interactive modes. Additionally I cover some materials on how to implement MetSim for custom datasets and some interactive plotting techniques.</p>
+        <p style="margin-bottom:3em;"></p>
+      
+    </div>
+
+    <div class="col-lg-8 col-lg-offset-2">
+      <h3>Additional Resources</h3>
+      <div class="hline"></div>
+      
+        <h4>Book chapter on differentiable hydrology - AI for physics inspired hydrology modeling</h4>
+<div class="row">
+    <div class="col-lg-7"> 
+        <p>Written 2022</p> 
+    </div>
+    <div class="col-lg-3 alignright"> 
+        <a href="https://doi.org/10.1016/B978-0-323-91737-7.00006-2" class="materials">View Materials</a> 
+    </div>
+</div>
+<p>In this chapter we walk from beginning to end of how to implement so called “hybrid” models which blend machine learning with traditional modeling techniques for simulating the hydrologic cycle. Specifically, this chapter outlines the basics of automatic differentiation, it’s use in optimization and machine learning. Then we cover some basic background on numerical optimization. These pieces all come together in a proof-of-concept example for parameterizing very simple differential equations with neural networks to represent unknown relationships. We present a synthetic example describing reservoir behavior to illustrate the techniques. Following this we show how these techniques can be scaled from synthetic data to a real hydrologic model. The model that we implement has multiple soil storage components, vegetation, and is represented by a well understood set of differential equations. We use the techniques built up through the course of the chapter to practically show how to fuse machine learning techniques with more traditional techniques in a way that is physically consistent and interpretable. <p> <a href=https://github.com/earth-artificial-intelligence/earth_ai_book_materials/blob/main/chapter_07/ai_for_physics_inspired_hydrology_modeling.ipynb>This material is also available as a Jupyter Notebook</a> </p> </p>
+        <p style="margin-bottom:3em;"></p>
+      
+        <h4>GeoSMART Use Case - High resolution predictions of global snow using recurrent neural networks</h4>
+<div class="row">
+    <div class="col-lg-7"> 
+        <p>Written 2023</p> 
+    </div>
+    <div class="col-lg-3 alignright"> 
+        <a href="https://geo-smart.github.io/global_lstm_swe_modeling/0_getting_started.html" class="materials">View Materials</a> 
+    </div>
+</div>
+<p>This is a machine learning tutorial that highlights using large-scale climate projections and recurrent neural networks to model snow. In this tutorial we will show you how to train an ML model to evaluate, anywhere in the world, the impact of climate change on snowpack. This tutorial will offer two key contributions: (1) using off-the-shelf cloud datasets to produce a model that can generate high resolution snow projections anywhere on the globe in a hindcast setting and (2) evaluating the ability to use the trained model to understand future snow conditions under multiple climate scenarios. Throughout the tutorial we will comment on design decisions which are made when deploying the trained model with the future in mind. This is primarily accomplished by defining modular components for data loading, data transformation, and model loading. As an outcome of this tutorial we hope that you will understand how to apply such methods to your own research.</p>
+        <p style="margin-bottom:3em;"></p>
+      
+    </div>
+
+  </div>
+</div>
+            </div>
+        </div>
+    </body>
+</html>

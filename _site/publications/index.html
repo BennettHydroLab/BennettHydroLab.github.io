@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+
+    <title>~ ⟩ Bennett Computational Hydrology Lab - Publications</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="/css/main.css">-->
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="/assets/js/modernizr.js"></script>
+</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+<script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+
+    <body>
+        <div class="everything">
+            <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top hline" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">~ ⟩ Bennett Computational Hydrology Lab</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li> <a href="/">HOME</a> </li>
+        <li> <a href="/publications/">PUBLICATIONS</a> </li>
+        <li> <a href="/teaching/">TEACHING</a> </li>
+        <li> <a href="/team/">TEAM</a> </li>
+        <li> <a href="/join/">JOIN</a> </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+            <div class="content mtb ">
+                <div class="padded col-lg-7 col-lg-offset-3">
+  <h1 id="publications">Publications</h1>
+
+</div>
+
+
+<div class="container content mtb">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+        
+
+        
+
+        
+            <h3>Published</h3>
+            
+                
+  <p>Maghami, I., A. Van Beusekom, L. Hay, Z. Li, A. Bennett, Y. Choi, B. Nijssen, S. Wang, D. Tarboton, J. Goodall, 2023: Building cyberinfrastructure for the reuse and reproducibility of complex hydrologic modeling studies. <span class="journal">Environmental Modelling & Software</span>, <a href="https://doi.org/10.1016/j.envsoft.2023.105689">doi:10.1016/j.envsoft.2023.105689.</a></p>
+
+
+            
+                
+  <p>Knoben, W. J. M., M. P. Clark, J. Bales, A. Bennett, S. Gharari, C. B. Marsh, B. Nijssen, A. Pietroniro, R. J. Spiteri, G. Tang, D. G. Tarboton, A. W. Wood, 2022: Community workflows to advance reproducibility in hydrologic modeling: Separating model-agnostic and model-specific configuration steps in applications of large-domain hydrologic models. <span class="journal">Water Resources Research</span>, <a href="https://doi.org/10.1029/2021WR031753">doi:10.1029/2021WR031753.</a></p>
+
+
+            
+                
+  <p>Cristea, N., A. Bennett, B. Nijssen, and J. Lundquist, 2022: Models with multiple snow layers are essential to improve snow predictions in current and future climates. <span class="journal">Water Resources Research</span>, <a href="https://doi.org/10.1029/2020WR028993">doi:10.1029/2020WR028993.</a></p>
+
+
+            
+                
+  <p>Lumbrazo, C., A. Bennett, W. Currier, B. Nijssen, and J. Lundquist, 2022: Evaluating multiple canopy-snow unloading parameterizations in SUMMA with time-lapse photography characterized by citizen scientists. <span class="journal">Water Resources Research</span>, <a href="https://doi.org/10.1029/2021WR030852">doi:10.1029/2021WR030852.</a></p>
+
+
+            
+                
+  <p>Bennett, A., A. Stein, Y. Cheng, B. Nijssen, and M. McGuire, 2022: A process-conditioned and spatially consistent method for reducing systematic biases in modeled streamflow. <span class="journal">Journal of Hydrometeorology</span>, <a href="https://doi.org/10.1175/JHM-D-21-0174.1">doi:10.1175/JHM-D-21-0174.1.</a></p>
+
+
+            
+                
+  <p>Van Beusekom, A., L.E. Hay, A.R. Bennett, Y.-D. Choi, M.P. Clark, J.L. Goodall, Z. Li, I. Maghami, B. Nijssen, and A.W. Wood, 2022: Hydrologic model sensitivity to temporal disaggregation of meteorological forcing data: A case study for the contiguous USA. <span class="journal">Journal of Hydrometeorology</span>, <a href="https://doi.org/10.1175/JHM-D-21-0111.1">doi:10.1175/JHM-D-21-0111.1.</a></p>
+
+
+            
+                
+  <p>Bennett, A., and B. Nijssen, 2021: Deep learned process parameterizations provide better representations of turbulent heat fluxes in hydrologic models. <span class="journal">Water Resources Research</span>, <a href="https://doi.org/10.1029/2020WR029328">doi:10.1029/2020WR029328.</a></p>
+
+
+            
+                
+  <p>Clark, M., R. Zolfaghari, K. Green, S. Trim, W. Knoben, A. Bennett, B. Nijssen, A. Ireson, and R. Spiteri, 2021: The numerical implementation of land models: Problem formulation and laugh tests. <span class="journal">Journal of Hydrometeorology</span>, <a href="https://doi.org/10.1175/JHM-D-20-0175.1">doi:10.1175/JHM-D-20-0175.1.</a></p>
+
+
+            
+                
+  <p>Choi, Y.-D., J. L. Goodall, J. M. Sadler, A. M. Castronova, A. Bennett, Z. Li, B. Nijssen, S. Wang, M. P. Clark, D. P. Ames, J. S. Horsburgh, H. Yi, C. Bandaragoda, M. Seul, R. Hooper and D. G. Tarboton, 2020: Toward open and reproducible environmental modeling by integrating online data repositories, computational environments, and model application programming interfaces". <span class="journal">Environmental Modelling and Software</span>, <a href="https://doi.org/10.1016/j.envsoft.2020.104888">doi:10.1016/j.envsoft.2020.104888.</a></p>
+
+
+            
+                
+  <p>Bennett, A., J. Hamman, and B. Nijssen, 2020: MetSim: A Python package for estimation and disaggregation of meteorological data. <span class="journal">Journal of Open Source Software</span>, <a href="https://doi.org/10.21105/joss.02042">doi:10.21105/joss.02042.</a></p>
+
+
+            
+                
+  <p>Bennett, A., B. Nijssen, G. Ou, M. Clark, and G. Nearing, 2019: Quantifying process connectivity with transfer entropy in hydrologic models. <span class="journal">Water Resources Research</span>, <a href="https://doi.org/10.1029/2018WR024555">doi:10.1029/2018WR024555.</a></p>
+
+
+            
+                
+  <p>Evans, K. J. and Kennedy, J. H. and Lu, D. and Forrester, M. M. and Price, S. and Fyke, J. and Bennett, A. R. and Hoffman, M. J. and Tezaur, I. and Zender, C. S. and Vizcaino, M., 2019: LIVVkit 2.1: automated and extensible ice sheet model validation. <span class="journal">Geoscientific Model Development</span>, <a href="https://doi.org/10.5194/gmd-12-1067-2019">doi:10.5194/gmd-12-1067-2019.</a></p>
+
+
+            
+                
+  <p>Lipscomb, W. H. and Price, S. F. and Hoffman, M. J. and Leguy, G. R. and Bennett, A. R. and Bradley, S. L. and Evans, K. J. and Fyke, J. G. and Kennedy, J. H. and Perego, M. and Ranken, D. M. and Sacks, W. J. and Salinger, A. G. and Vargo, L. J. and Worley, P. H., 2019: Description and evaluation of the Community Ice Sheet Model (CISM) v2.1. <span class="journal">Geoscientific Model Development</span>, <a href="https://doi.org/10.5194/gmd-12-387-2019">doi:10.5194/gmd-12-387-2019.</a></p>
+
+
+            
+                
+  <p>Jay Jay Billings and Andrew R. Bennett and Jordan Deyton and Kasper Gammeltoft and Jonah Graham and Dasha Gorin and Hari Krishnan and Menghan Li and Alexander J. McCaskey and Taylor Patterson and Robert Smith and Gregory R. Watson and Anna Wojtowicz, 2018: The eclipse integrated computational environment. <span class="journal">SoftwareX</span>, <a href="https://doi.org/10.1016/j.softx.2018.07.004">doi:10.1016/j.softx.2018.07.004.</a></p>
+
+
+            
+                
+  <p>Kennedy, Joseph H. and Bennett, Andrew R. and Evans, Katherine J. and Price, Stephen and Hoffman, Matthew and Lipscomb, William H. and Fyke, Jeremy and Vargo, Lauren and Boghozian, Adrianna and Norman, Matthew and Worley, Patrick H., 2017: LIVVkit: An extensible, python-based, land ice verification and validation toolkit for ice sheet models. <span class="journal">Journal of Advances in Modeling Earth Systems</span>, <a href="https://doi.org/10.1002/2017MS000916">doi:10.1002/2017MS000916.</a></p>
+
+
+            
+            <div class="hline"></div>
+        
+        </div><! --/col-lg-8 -->
+    </div><! --/row -->
+</div><! --/container -->
+            </div>
+        </div>
+    </body>
+</html>

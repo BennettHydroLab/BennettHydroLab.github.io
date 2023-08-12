@@ -1,0 +1,67 @@
+
+# Classes taught at UA
+classes:
+  - listing: "HWRS 401/501"
+    title: "Tools for Data Handling and Analysis in Water, Weather, & Climate"
+    years: "Fall 2022"
+    website: "https://arbennett.github.io/python_for_water_weather_climate/README.html"
+    description: "A hands-on introduction to major software tools and methods used across research and industry for
+hydrology and atmospheric science. We will take a project-based approach, learning software packages
+and best practices while building our own analysis for a real world problem. Major topics covered will
+include: Python for scientific computing, GitHub workflows and collaborative open source development,
+the basics of parallel and cloud computing, major data repositories and how to interact with them, and
+the basics of visualization. No prior coding experience is required."
+
+# Workshops
+workshops:
+  - listing: "WaterHackWeek"
+    title: "MetSim"
+    year: "2019"
+    website: "https://github.com/UW-Hydro/MetSim-tutorial"
+    description: "A set of tutorial materials on how to use the MetSim python package. 
+MetSim is a software package that enables generation and temporal disaggregation of meteorologic
+forcing data meant for hydrologic models. In the tutorial I cover the gaps that MetSim covers, a
+brief overview of the methods employed, and then walk through several use cases for how to actually
+run MetSim in both command line and interactive modes. Additionally I cover some materials on how
+to implement MetSim for custom datasets and some interactive plotting techniques."
+
+# Extra training materials
+additional_resources:
+  - listing: "Book chapter on differentiable hydrology"
+    title: "AI for physics inspired hydrology modeling"
+    year: "2022"
+    website: "https://doi.org/10.1016/B978-0-323-91737-7.00006-2"
+    description: "In this chapter we walk from beginning to end of how to implement so called 
+“hybrid” models which blend machine learning with traditional modeling techniques for simulating 
+the hydrologic cycle. Specifically, this chapter outlines the basics of automatic differentiation, 
+it’s use in optimization and machine learning. Then we cover some basic background on numerical 
+optimization. These pieces all come together in a proof-of-concept example for parameterizing very 
+simple differential equations with neural networks to represent unknown relationships. We present 
+a synthetic example describing reservoir behavior to illustrate the techniques. Following this we 
+show how these techniques can be scaled from synthetic data to a real hydrologic model. The model 
+that we implement has multiple soil storage components, vegetation, and is represented by a well 
+understood set of differential equations. We use the techniques built up through the course of 
+the chapter to practically show how to fuse machine learning techniques with more traditional 
+techniques in a way that is physically consistent and interpretable.
+<p>
+<a href=https://github.com/earth-artificial-intelligence/earth_ai_book_materials/blob/main/chapter_07/ai_for_physics_inspired_hydrology_modeling.ipynb>This material is also available as a Jupyter Notebook</a>
+</p>
+"
+  - listing: "GeoSMART Use Case"
+    title: "High resolution predictions of global snow using recurrent neural networks"
+    year: "2023"
+    website: "https://geo-smart.github.io/global_lstm_swe_modeling/0_getting_started.html"
+    description: "This is a machine learning tutorial that highlights using large-scale climate 
+projections and recurrent neural networks to model snow. In this tutorial we will show you how to 
+train an ML model to evaluate, anywhere in the world, the impact of climate change on snowpack. 
+This tutorial will offer two key contributions: (1) using off-the-shelf cloud datasets to produce 
+a model that can generate high resolution snow projections anywhere on the globe in a hindcast 
+setting and (2) evaluating the ability to use the trained model to understand future snow conditions 
+under multiple climate scenarios. Throughout the tutorial we will comment on design decisions which 
+are made when deploying the trained model with the future in mind. This is primarily accomplished 
+by defining modular components for data loading, data transformation, and model loading. As an 
+outcome of this tutorial we hope that you will understand how to apply such methods to your own 
+research."
+
+
+

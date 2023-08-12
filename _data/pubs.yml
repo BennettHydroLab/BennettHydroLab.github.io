@@ -1,0 +1,86 @@
+# articles_near_submission: not displayed
+articles_near_submission:
+
+# articles_in review - shown on the publications page
+articles_in_review:
+
+# articles_accepted - shown on the publications page
+articles_accepted:  
+   
+# articles_published - shown on the publications page
+articles_published:
+  - title: "Building cyberinfrastructure for the reuse and reproducibility of complex hydrologic modeling studies"
+    year: 2023
+    authors: Maghami, I., A. Van Beusekom, L. Hay, Z. Li, A. Bennett, Y. Choi, B. Nijssen, S. Wang, D. Tarboton, J. Goodall
+    journal: "Environmental Modelling & Software"
+    doi: 10.1016/j.envsoft.2023.105689
+  - title: "Community workflows to advance reproducibility in hydrologic modeling: Separating model-agnostic and model-specific configuration steps in applications of large-domain hydrologic models"
+    year: 2022
+    authors: Knoben, W. J. M., M. P. Clark, J. Bales, A. Bennett, S. Gharari, C. B. Marsh, B. Nijssen, A. Pietroniro, R. J. Spiteri, G. Tang, D. G. Tarboton, A. W. Wood
+    journal: "Water Resources Research"
+    doi: 10.1029/2021WR031753
+  - title:  "Models with multiple snow layers are essential to improve snow predictions in current and future climates"
+    authors: Cristea, N., A. Bennett, B. Nijssen, and J. Lundquist
+    year: 2022
+    journal: "Water Resources Research"
+    doi: 10.1029/2020WR028993 
+  - title: "Evaluating multiple canopy-snow unloading parameterizations in SUMMA with time-lapse photography characterized by citizen scientists"
+    year: 2022
+    authors: Lumbrazo, C., A. Bennett, W. Currier, B. Nijssen, and J. Lundquist
+    journal: "Water Resources Research"
+    doi: 10.1029/2021WR030852
+  - title: "A process-conditioned and spatially consistent method for reducing systematic biases in modeled streamflow"
+    year: 2022
+    authors: Bennett, A., A. Stein, Y. Cheng, B. Nijssen, and M. McGuire
+    journal: "Journal of Hydrometeorology"
+    doi: 10.1175/JHM-D-21-0174.1
+  - title: "Hydrologic model sensitivity to temporal disaggregation of meteorological forcing data: A case study for the contiguous USA"
+    authors: Van Beusekom, A., L.E. Hay, A.R. Bennett, Y.-D. Choi, M.P. Clark, J.L. Goodall, Z. Li, I. Maghami, B. Nijssen, and A.W. Wood
+    year: 2022
+    journal: "Journal of Hydrometeorology"
+    doi: 10.1175/JHM-D-21-0111.1
+  - title:  "Deep learned process parameterizations provide better representations of turbulent heat fluxes in hydrologic models"
+    authors: Bennett, A., and B. Nijssen
+    year: 2021
+    journal: "Water Resources Research"
+    doi: 10.1029/2020WR029328 
+  - title: "The numerical implementation of land models: Problem formulation and laugh tests"
+    authors: Clark, M., R. Zolfaghari, K. Green, S. Trim, W. Knoben, A. Bennett, B. Nijssen, A. Ireson, and R. Spiteri
+    year: 2021
+    journal: "Journal of Hydrometeorology"
+    doi: 10.1175/JHM-D-20-0175.1
+  - title: Toward open and reproducible environmental modeling by integrating online data repositories, computational environments, and model application programming interfaces"
+    authors: Choi, Y.-D., J. L. Goodall, J. M. Sadler, A. M. Castronova, A. Bennett, Z. Li, B. Nijssen, S. Wang, M. P. Clark, D. P. Ames, J. S. Horsburgh, H. Yi, C. Bandaragoda, M. Seul, R. Hooper and D. G. Tarboton
+    year: 2020
+    journal: "Environmental Modelling and Software"
+    doi: 10.1016/j.envsoft.2020.104888
+  - title: "MetSim: A Python package for estimation and disaggregation of meteorological data"
+    authors: Bennett, A., J. Hamman, and B. Nijssen
+    year: 2020
+    journal: "Journal of Open Source Software"
+    doi: 10.21105/joss.02042
+  - title: "Quantifying process connectivity with transfer entropy in hydrologic models"
+    authors: Bennett, A., B. Nijssen, G. Ou, M. Clark, and G. Nearing
+    year: 2019
+    journal: "Water Resources Research"
+    doi: 10.1029/2018WR024555
+  - title: "LIVVkit 2.1: automated and extensible ice sheet model validation"
+    authors: Evans, K. J. and Kennedy, J. H. and Lu, D. and Forrester, M. M. and Price, S. and Fyke, J. and Bennett, A. R. and Hoffman, M. J. and Tezaur, I. and Zender, C. S. and Vizcaino, M.
+    year: 2019
+    journal: Geoscientific Model Development
+    doi: 10.5194/gmd-12-1067-2019
+  - title: "Description and evaluation of the Community Ice Sheet Model (CISM) v2.1"
+    authors: Lipscomb, W. H. and Price, S. F. and Hoffman, M. J. and Leguy, G. R. and Bennett, A. R. and Bradley, S. L. and Evans, K. J. and Fyke, J. G. and Kennedy, J. H. and Perego, M. and Ranken, D. M. and Sacks, W. J. and Salinger, A. G. and Vargo, L. J. and Worley, P. H.
+    year: 2019
+    journal: Geoscientific Model Development
+    doi: 10.5194/gmd-12-387-2019
+  - title: "The eclipse integrated computational environment"
+    authors: Jay Jay Billings and Andrew R. Bennett and Jordan Deyton and Kasper Gammeltoft and Jonah Graham and Dasha Gorin and Hari Krishnan and Menghan Li and Alexander J. McCaskey and Taylor Patterson and Robert Smith and Gregory R. Watson and Anna Wojtowicz
+    year: 2018
+    journal: SoftwareX
+    doi: 10.1016/j.softx.2018.07.004
+  - title: "LIVVkit: An extensible, python-based, land ice verification and validation toolkit for ice sheet models"
+    authors: Kennedy, Joseph H. and Bennett, Andrew R. and Evans, Katherine J. and Price, Stephen and Hoffman, Matthew and Lipscomb, William H. and Fyke, Jeremy and Vargo, Lauren and Boghozian, Adrianna and Norman, Matthew and Worley, Patrick H.
+    year: 2017
+    journal: Journal of Advances in Modeling Earth Systems
+    doi: 10.1002/2017MS000916
