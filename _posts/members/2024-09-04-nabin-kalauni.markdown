@@ -18,10 +18,10 @@ links:
 #- title: Google Scholar #use for your Google Scholar profile if you have one
 #  url: "https://scholar.google.com/citations?user=5G-M-UEAAAAJ&hl=en"
 education:
-- school:  University of Washington
-  location:  Seattle, Washington
+- school:  University of Arizona
+  location:  Tucson, Arizona
   program:  Hydrology
-  degree:  MS
+  degree:  M.S.
   year:  2026
 - school:  Pulchowk Campus, Tribhuvan University
   location:  Lalitpur, Nepal
@@ -30,8 +30,8 @@ education:
   year:  2023
 positions_held:
 - position: Graduate Research Assistant
-  employer: Hyddrology and Atmospheric Sciences, University of Arizona
-  location: Seattle, Washington
+  employer: Hydrology and Atmospheric Sciences, University of Arizona
+  location: Tucson, Arizona
   period: Aug 2024 - Present
 - position: Research Assisant
   employer: Center for Water Resource Studies, IOE
