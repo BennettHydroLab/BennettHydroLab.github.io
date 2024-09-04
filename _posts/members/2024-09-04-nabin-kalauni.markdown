@@ -44,4 +44,3 @@ positions_held:
  - machine learning
  - hybrid modeling
  - land-atmosphere interaction
-# - open-source software development
