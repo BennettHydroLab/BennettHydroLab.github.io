@@ -6,7 +6,7 @@ date: 1970-01-01 # don't change - this is used for sorting only
 author: Aamir Raj Lamichhane
 categories:
 - current_member
-img: # andrew_bennett.jpg
+img: aamir_lamichhane.jpg
 position: MS in Hydrology, University of Arizona
 links:
 - title: Email #use for email address
